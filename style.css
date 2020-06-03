@@ -10,7 +10,7 @@ body
     width: 1100px;
     height: 637px;
     margin: auto;
-    background-image: url(files/map.png);
+    background-image: var(--backgrnd);
     background-size: 1100px 637px;
 }
 .container .pin
