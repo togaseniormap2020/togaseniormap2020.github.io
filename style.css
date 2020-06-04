@@ -48,7 +48,7 @@ body
     height: 32px;
     background: var(--logpin);
     background-size: 22px 32px;
-    z-index: 4;
+    z-index: calc(4+200*var(--priority));
     opacity: 1;
     transition: all .6s linear, opacity .2s;
 }
@@ -61,7 +61,7 @@ body
     background: var(--logpin);
     background-size: 231px 336px;
     opacity: 0;
-    z-index: 1999;
+    z-index: calc(99+200*var(--priority));
 }
 .container .background .pin .content
 {
@@ -73,7 +73,7 @@ body
     background: var(--custpin);
     background-size: 22px 32px;
     opacity: 0;
-    z-index: 2000;
+    z-index: calc(100+200*var(--priority));
     transition: all .6s linear, opacity .2s;
 }
 .container .background .pin:hover .content
