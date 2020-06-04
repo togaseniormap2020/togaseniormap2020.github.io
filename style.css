@@ -3,6 +3,14 @@ body
     margin:  0;
     padding: 0;
 }
+.namebox
+{
+    position: relative;
+    width: 900px;
+    height: auto;
+    background-image: var(--backgrnd);
+    background-size: auto;
+}
 .container
 {
     position: relative;
